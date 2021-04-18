@@ -20,6 +20,12 @@
 	margin-bottom: 9px;
 }
 
+.location{
+	color: $footer-logo-color;
+	text-decoration: none;
+	margin: 0;
+}
+
 .address__link {
 	color: $footer-link-color;
 	transition: color $transition-time $transition-function;

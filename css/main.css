@@ -86,7 +86,12 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: ui-monospace,
+ SFMono-Regular,
+ Consolas,
+ 'Liberation Mono',
+ Menlo,
+ monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -1057,6 +1062,12 @@ textarea {
 
 .address__item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.location{
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
 }
 
 .address__link {
